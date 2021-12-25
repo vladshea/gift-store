@@ -27,7 +27,7 @@ a {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #000000;
   background-color: #ffffff;
 }
@@ -71,6 +71,13 @@ body {
 .nav-item:not(:last-child) {
   margin-right: 31px;
 }
+.btn {
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
 
 .primary-btn {
   font-size: 18px;
@@ -83,4 +90,35 @@ body {
 }
 .header-btn {
   padding: 14px 20px;
+}
+
+.hero {
+  background-color: var(--third-bcg-color);
+}
+.container-hero {
+  display: flex;
+}
+
+.hero-box {
+  padding: 154px 126px 135px 162px;
+}
+.hero-title {
+  font-size: 56px;
+  line-height: 1.18;
+  font-weight: 900;
+}
+.hero-text {
+  font-size: 20px;
+  line-height: 1.4;
+  margin-top: 45px;
+  margin-bottom: 52px;
+}
+.btn-hero {
+  background-color: var(--brand-color);
+  font-size: 18px;
+  line-height: 1.17;
+  min-width: 200px;
+  min-height: 60px;
+}
+.hero-img {
 }
