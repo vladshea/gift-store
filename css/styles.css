@@ -5,9 +5,29 @@
   --brand-bcg-color: #fafafa;
   --third-bcg-color: #f1f1f2;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #000000;
   background-color: #ffffff;
 }
@@ -22,4 +42,45 @@ body {
 .container-header {
   padding-left: 74px;
   padding-right: 34px;
+  display: flex;
+  /* padding-top: 36px;
+  padding-bottom: 36px; */
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-links {
+  display: flex;
+  margin-left: 439px;
+}
+.nav1 {
+  display: flex;
+  align-items: center;
+}
+.nav-link {
+  font-size: 18px;
+  line-height: 1.22;
+  color: #000000;
+  padding-top: 47px;
+  padding-bottom: 47px;
+  display: inline-block;
+}
+/* .nav-item + .nav-item {
+  margin-left: 31px;
+} */
+
+.nav-item:not(:last-child) {
+  margin-right: 31px;
+}
+
+.primary-btn {
+  font-size: 18px;
+  line-height: 1.22;
+  color: var(--brand-color);
+  background-color: transparent;
+  border: 1px solid var(--brand-color);
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.header-btn {
+  padding: 14px 20px;
 }
