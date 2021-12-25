@@ -1,0 +1,25 @@
+:root {
+  --brand-color: #f7941e;
+  --main-bcg-color: #ffffff;
+  --secondary-bcg-color: #231f20;
+  --brand-bcg-color: #fafafa;
+  --third-bcg-color: #f1f1f2;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+/* шапка */
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.container-header {
+  padding-left: 74px;
+  padding-right: 34px;
+}
