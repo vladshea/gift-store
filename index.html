@@ -1,149 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gift store</title>
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
     <header>
+      <div class="container container-header">
         <nav>
-            <a href="/"><img src="./images/Logo.png" alt="logo"></a>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Blogs</a></li>
-            </ul>            
+          <a href="/" class="logo"
+            ><img src="./images/Logo.png" alt="logo"
+          /></a>
+          <ul class="nav-links">
+            <li><a href="#" class="nav-link">Home</a></li>
+            <li><a href="#" class="nav-link">About Us</a></li>
+            <li><a href="#" class="nav-link">Services</a></li>
+            <li><a href="#" class="nav-link">Blogs</a></li>
+          </ul>
         </nav>
-        <a href="#">
-            Gift Finder
-        </a>
+        <a href="#" class="primary-btn header-btn"> Gift Finder </a>
+      </div>
     </header>
     <main>
-        <section>
-            <h1>
-                Find a gift for your wife or girlfriend
-            </h1>
+      <section>
+        <h1>Find a gift for your wife or girlfriend</h1>
+        <p>
+          Struggling to find a gift for your wife or girlfriend? No problem!
+        </p>
+        <button type="button">Find gift now</button>
+        <img src="./images/GiftBg.jpg" alt="family photo" />
+      </section>
+      <section>
+        <img src="./images/ThanksBg.jpg" alt="Thanks" />
+        <h2>How we work</h2>
+        <p>
+          We’ve actually already asked hundreds of women what they want, and
+          made a database with the results. All you have to do is take our short
+          survey that only takes seconds, and our proprietary algorithm will
+          match you with a few perfect gift options.
+        </p>
+        <a href="#">Learn More</a>
+      </section>
+      <section>
+        <h2>Gifts for all Occasions</h2>
+        <p>“Try our web app to find the best gifts for all occasions”</p>
+        <ul>
+          <li>
+            <img src="./images/gift1.jpg" alt="gift1" />
+            <p>Birthday</p>
+            <a href="#">See More ›</a>
+          </li>
+          <li>
+            <img src="./images/gift2.jpg" alt="gift2" />
+            <p>Anniversary</p>
+            <a href="#">See More ›</a>
+          </li>
+          <li>
+            <img src="./images/gift3.jpg" alt="gift3" />
+            <p>Valentine's Day</p>
+            <a href="#">See More ›</a>
+          </li>
+          <li>
+            <img src="./images/gift4.jpg" alt="gift4" />
+            <p>Christmas</p>
+            <a href="#">See More ›</a>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Ready to get started?</h2>
+        <p>Sign up or contact us</p>
+        <button type="button">Find gift now</button>
+        <a href="#">how it works</a>
+      </section>
+      <section>
+        <h2>Our Best Blogs Ever</h2>
+        <p>
+          “Try our blog to find the best tips and tricks to select your gift”
+        </p>
+        <div>
+          <p>Mr. John Doe</p>
+          <h2>The best way to wish your wife</h2>
+          <a href="#">Read More</a>
+          <img src="./images/jhon_doe.jpg" alt="jhon_doe" />
+        </div>
+        <ul>
+          <li>
+            <h2>Database to find the gifts for your girlfriend</h2>
             <p>
-                Struggling to find a gift for your wife or girlfriend?
-                No problem!
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore...
             </p>
-            <button type="button">
-                Find gift now
-            </button>
-            <img src="./images/GiftBg.jpg" alt="family photo">
-        </section>
-        <section>
-            <img src="./images/ThanksBg.jpg" alt="Thanks">
+            <a href="#">Read More</a>
+          </li>
+          <li>
             <h2>
-                How we work
+              How Artificial Intelligence read your mind to find the best gift
             </h2>
             <p>
-                We’ve actually already asked hundreds of women what they want, and made a database with the results. All you have to do
-                is take our short survey that only takes seconds, and our proprietary algorithm will match you with a few perfect gift
-                options.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore...
             </p>
-            <a href="#">Learn More</a>
-        </section>
-        <section>
-            <h2>
-                Gifts for all Occasions 
-            </h2>
-            <p>
-                “Try our web app to find the best gifts for all occasions”
-            </p>
-            <ul>
-                <li>
-                    <img src="./images/gift1.jpg" alt="gift1">
-                    <p>Birthday</p>
-                    <a href="#">See More ›</a>
-                </li>
-                <li>
-                    <img src="./images/gift2.jpg" alt="gift2">
-                    <p>Anniversary</p>
-                    <a href="#">See More ›</a>
-                </li>
-                <li>
-                    <img src="./images/gift3.jpg" alt="gift3">
-                    <p>Valentine's Day</p>
-                    <a href="#">See More ›</a>
-                </li>
-                <li>
-                    <img src="./images/gift4.jpg" alt="gift4">
-                    <p>Christmas</p>
-                    <a href="#">See More ›</a>
-                </li>             
-            </ul>
-        </section>
-        <section>
-            <h2>Ready to get started?</h2>
-            <p>Sign up or contact us</p>
-            <button type="button">
-                Find gift now
-            </button>
-            <a href="#">how it works</a>
-        </section>
-        <section>
-            <h2>Our Best Blogs Ever</h2>
-            <p>“Try our blog to find the best tips and tricks to select your gift”</p>
-            <div>
-                <p>Mr. John Doe</p>
-                <h2>The best way to wish your wife</h2>
-                <a href="#">Read More</a>
-                <img src="./images/jhon_doe.jpg" alt="jhon_doe">
-            </div>
-            <ul>
-                <li>
-                    <h2>Database to find the gifts for your girlfriend</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
-                    <a href="#">Read More</a>
-                </li>
-                <li>
-                    <h2>How Artificial Intelligence read your mind to find the best gift</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
-                    <a href="#">Read More</a>
-                </li>
-            </ul>
-        </section>
-        <footer>
-            <ul>
-                <li><a href="#">
-                    Home
-                </a>
-                </li>
-                <li>
-                   <a href="#">
-                    About
-                   </a>
-                </li>
-                <li>
-                   <a href="#"> 
-                     <img src="./images/logo.footer.png" alt="footer_logo"">
-                   </a>
-                </li>
-                <li>
-                   <a href="#">
-                    Service
-                   </a>
-                </li>
-                <li>
-                   <a href="#">
-                    Blog
-                   </a>
-                </li>
-            </ul>
-            <ul>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-            </ul>
-            <p>© 2010 — 2020</p>
-            <p>Privacy — Terms</p>
-        </footer>
+            <a href="#">Read More</a>
+          </li>
+        </ul>
+      </section>
+      <footer>
+        <ul>
+          <li><a href="#"> Home </a></li>
+          <li>
+            <a href="#"> About </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./images/logo.footer.png" alt="footer_logo"">
+            </a>
+          </li>
+          <li>
+            <a href="#"> Service </a>
+          </li>
+          <li>
+            <a href="#"> Blog </a>
+          </li>
+        </ul>
+        <ul>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+        </ul>
+        <p>© 2010 — 2020</p>
+        <p>Privacy — Terms</p>
+      </footer>
     </main>
-</body>
+  </body>
 </html>
