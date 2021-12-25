@@ -87,6 +87,7 @@ body {
   border: 1px solid var(--brand-color);
   box-sizing: border-box;
   border-radius: 5px;
+  text-transform: uppercase;
 }
 .header-btn {
   padding: 14px 20px;
@@ -121,4 +122,42 @@ body {
   min-height: 60px;
 }
 .hero-img {
+  display: block;
+}
+
+.description {
+  background-color: var(--third-bcg-color);
+}
+
+.description-img {
+  display: block;
+}
+
+.container-description {
+  display: flex;
+}
+
+.description-box {
+  padding: 164px 166px 104px 112px;
+}
+
+.description-title {
+  font-size: 32px;
+  line-height: 1.4;
+}
+
+.description-text {
+  font-size: 20px;
+  line-height: 1.4;
+  margin-top: 23px;
+  margin-bottom: 35px;
+}
+
+.description-btn {
+  display: inline-flex;
+
+  min-width: 200px;
+  min-height: 60px;
+  justify-content: center;
+  align-items: center;
 }
